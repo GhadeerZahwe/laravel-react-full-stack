@@ -10,8 +10,7 @@ if(!token){
 }
 
   return (
-    <div>
-      Default
+    <div id="defaultLayout">
       <Outlet />
     </div>
   );
