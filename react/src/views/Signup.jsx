@@ -9,6 +9,7 @@ export default function Signup() {
   const passwordRef = createRef()
   const passwordConfirmationRef = createRef()
   const {setUser, setToken} = useStateContext()
+  const [errors, setErrors] = useState(null)
 
   const onSubmit = ev => {
     ev.preventDefault()
@@ -27,7 +28,10 @@ export default function Signup() {
       .catch(err => {
         const response = err.response;
         if (response && response.status === 422) {
+          console.log(response.data.errors);
+
           setErrors(response.data.errors)
+          
         }
       })
   }
