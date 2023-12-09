@@ -35,6 +35,8 @@ Make sure you have environment setup properly. You will need PHP8.1, composer an
 ![image](https://github.com/GhadeerZahwe/laravel-react-full-stack/assets/88279980/4d746df5-f806-4554-89ef-ed748af28975)
 ![image](https://github.com/GhadeerZahwe/laravel-react-full-stack/assets/88279980/b4df97ce-37e4-4977-adaf-a3a0a499c79b)
 Use localStorage.clear() to clear the token
+
+
 ![image](https://github.com/GhadeerZahwe/laravel-react-full-stack/assets/88279980/84e6bba0-1e13-48e2-a903-b94aa5c32a0a)
 
 
