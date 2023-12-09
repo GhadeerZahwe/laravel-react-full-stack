@@ -7,13 +7,13 @@ use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
-    public function login(){
+    public function login(LoginRequest $request){
         
     }
-    public function signup(){
+    public function signup(signupRequest $request){
 
     }
-    public function logout(){
+    public function logout(Request $request){
 
     }
 }
